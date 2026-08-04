@@ -96,11 +96,9 @@ export default function Home() {
           </div>
           {/* Status Badge */}
           <div className="mt-8 flex justify-center">
-            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/20">
-              <div className="w-2 h-2 rounded-full bg-emerald-400"></div>
-              <span className="text-xs text-emerald-400 font-medium">
-                Available for Work
-              </span>
+            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 border border-red-500/20">
+              <div className="w-2 h-2 rounded-full bg-red-500"></div>
+              <span className="text-xs text-red-500 font-medium">Busy</span>
             </div>
           </div>
         </div>
@@ -111,9 +109,11 @@ export default function Home() {
 
 {
   /* <div className="mt-8 flex justify-center">
-            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 border border-red-500/20">
-              <div className="w-2 h-2 rounded-full bg-red-500"></div>
-              <span className="text-xs text-red-500 font-medium">Busy</span>
-            </div>
-          </div> */
+  <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/20">
+    <div className="w-2 h-2 rounded-full bg-emerald-400"></div>
+    <span className="text-xs text-emerald-400 font-medium">
+      Available for Work
+    </span>
+  </div>
+</div>; */
 }
