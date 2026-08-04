@@ -20,6 +20,8 @@ jobs:
           script: |
             set -e
 
+            export PATH="/home/saeid/versions/node/v24.19.0/bin:$PATH"
+
             cd /var/www/moradisaeid-app
 
             git fetch origin
